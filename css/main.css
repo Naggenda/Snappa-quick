@@ -1,0 +1,154 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+}
+.navbar.white {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0 6px 20px rgba(0,0,0,.1);
+}
+.navbar-nav > li > a {
+    color: rgb(91, 90, 92);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 6px 0px 0px 30px;
+    padding: 4px 0px;
+}
+.img-manage{
+    width: 100%;
+}
+/* .flex-display{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.header{
+    display: flex;
+}
+#homePage .why{
+    padding: 80px 0px 0px;
+}
+#homePage .why .header{
+    margin-bottom: 100px;
+    position: relative;
+}
+#homePage .why .header img{
+    position: absolute;
+    width: 100px;
+    top: -40px;
+    left: 100px
+}
+#homePage .why h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0px 0px 30px;
+}
+#homePage .why img {
+    max-width: 550px;
+}
+img {
+    vertical-align: middle;
+}
+
+img {
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+#comparePage .templates img.svg, #homePage .templates img.svg, .landing-page .templates img.svg {
+    max-width: 175px;
+    margin: 20px 0px;
+}
+#testimonial .usr img.headshot {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 101, 141);
+    box-shadow: rgb(101, 101, 101) 1px 1px 15px;
+    border-radius: 50%;
+}
+#testimonial div.quote {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 20px 0px 0px;
+}
+#testimonial div.quote p {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    margin: 0px;
+}
+#testimonial .quote h5.name {
+    font-family: work-sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin: 25px 0px 0px;
+}
+#testimonial .quote h5 {
+    font-family: work-sans, sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+#testimonial.sujan {
+    background: url(https://d2qp0siotla746.cloudfront.net/img/common/backgrounds/blue-1.jpg) center center / 1400px 500px no-repeat, rgb(52, 178, 245);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#testimonial {
+    position: relative;
+    padding: 100px 0px;
+}
+#testimonial .usr img.quote {
+    position: absolute;
+    width: 100px;
+    right: 75px;
+    top: -20px;
+}
+#testimonial.olga {
+    background: url(https://d2qp0siotla746.cloudfront.net/img/common/backgrounds/blue-2.jpg) center center / 1400px 500px no-repeat, rgb(52, 178, 245);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#join-section h2 {
+    font-size: 36px;
+    color: rgb(50, 49, 51);
+    font-weight: 400;
+    margin: 120px auto 60px;
+}
+#join-section img {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 350px;
+    z-index: -1;
+}
+footer {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: rgb(50, 49, 51);
+}
+footer .footer-wrap {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+footer .subfooter {
+    text-align: center;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 0px;
+}
+footer .subfooter .copy {
+    opacity: 0.4;
+    letter-spacing: 1px;
+}
+footer .footer-wrap ul.list-unstyled li a {
+    color: rgba(255, 255, 255, 0.5);
+}
